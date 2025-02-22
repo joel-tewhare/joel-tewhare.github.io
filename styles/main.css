@@ -3,6 +3,14 @@ body {
   background-color: #91b38e;
 }
 
+.sixtyfour-blog-title {
+  font-family: 'Sixtyfour', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'BLED' 0, 'SCAN' 0;
+}
+
 .description-block {
   background: silver;
   background-color: #d3ecdc;
