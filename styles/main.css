@@ -2,3 +2,10 @@ body {
   text-align: center;
   background-color: #91b38e;
 }
+
+.description-block {
+  background-color: #d3ecdc;
+  font-family: monospace, sans serif;
+  color: #111111;
+  padding: 20px;
+}
