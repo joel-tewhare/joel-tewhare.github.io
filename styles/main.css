@@ -4,6 +4,11 @@ body {
   font-family: sans-serif;
 }
 
+h4 {
+  font-family: monospace, sans-serif;
+  color: #253728;
+}
+
 .sixtyfour-blog-title {
   font-family: 'Sixtyfour', serif;
   font-optical-sizing: auto;
