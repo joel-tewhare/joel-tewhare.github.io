@@ -26,3 +26,8 @@ h4 {
   margin: 35px;
   border-radius: 10px;
 }
+
+#home-image {
+  border-radius: 25px;
+  margin: 25px;
+}
