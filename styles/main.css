@@ -44,3 +44,9 @@ h4 {
   font-style: normal;
   font-variation-settings: 'BLED' 0, 'SCAN' 0;
 }
+
+.list-links {
+  font-family: monospace, sans-serif;
+  margin-left: 10px;
+  list-style-type: circle;
+}
