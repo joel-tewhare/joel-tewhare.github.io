@@ -46,7 +46,9 @@ h4 {
 }
 
 .list-links {
+  text-align: left;
   font-family: monospace, sans-serif;
+  margin-top: 10%;
   margin-left: 10px;
   list-style-type: circle;
 }
