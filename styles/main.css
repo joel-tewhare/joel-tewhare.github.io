@@ -136,23 +136,37 @@ h4 {
     text-align: center;
     background-color: #91b38e;
     font-family: sans-serif;
-    width: 290px;
+    width: 300px;
   }
   .description-block {
     background: silver;
     background-color: #d3ecdc;
     font-family: monospace, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #111111;
     padding: 20px;
-    margin: 35px;
+    margin: 20px;
     border-radius: 10px;
   }
 
+  h4 {
+    font-family: monospace, sans-serif;
+    font-size: 14px;
+    color: #253728;
+  }
+
+  .sixtyfour-blog-title {
+    font-family: 'Sixtyfour', serif;
+    font-size: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 'BLED' 0, 'SCAN' 0;
+  }
+
   #home-image {
-    width: 290px;
+    width: 280px;
     height: auto;
     border-radius: 25px;
-    margin: 25px;
+    margin: auto;
   }
 }
