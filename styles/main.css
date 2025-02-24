@@ -129,3 +129,29 @@ h4 {
     margin: 25px;
   }
 }
+
+@media (max-width: 320px) {
+  body {
+    text-align: center;
+    background-color: #91b38e;
+    font-family: sans-serif;
+    width: 290px;
+  }
+  .description-block {
+    background: silver;
+    background-color: #d3ecdc;
+    font-family: monospace, sans-serif;
+    font-size: 10px;
+    color: #111111;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 10px;
+  }
+
+  #home-image {
+    width: 290px;
+    height: auto;
+    border-radius: 25px;
+    margin: 25px;
+  }
+}
