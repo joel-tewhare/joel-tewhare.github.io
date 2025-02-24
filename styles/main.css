@@ -105,6 +105,32 @@ h4 {
   }
 }
 
+@media (max-width: 430px) {
+  body {
+    text-align: center;
+    background-color: #91b38e;
+    font-family: sans-serif;
+    width: 370px;
+  }
+  .description-block {
+    background: silver;
+    background-color: #d3ecdc;
+    font-family: monospace, sans-serif;
+    font-size: 14px;
+    color: #111111;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  #home-image {
+    width: 340px;
+    height: auto;
+    border-radius: 25px;
+    margin: 25px;
+  }
+}
+
 @media (max-width: 400px) {
   body {
     text-align: center;
