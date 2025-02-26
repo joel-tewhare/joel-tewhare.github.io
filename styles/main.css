@@ -11,6 +11,20 @@ h4 {
   color: #253728;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #111111;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111111;
+  text-decoration: underline;
+}
+
 .sixtyfour-blog-title {
   font-family: 'Sixtyfour', serif;
   font-optical-sizing: auto;
