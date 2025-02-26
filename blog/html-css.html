@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stories and Legends (PAGE title)</title>
+    <title>
+      What are the best practices associated with using classes and ids
+    </title>
     <meta charset="UTF-8" />
     <link href="../styles/main.css" rel="stylesheet" type="text/css" />
     <link
@@ -33,41 +35,39 @@
       <h3>26 February 2025</h3>
 
       <p>
-        If you're like me, you like to work smarter, not harder. Class and id
-        declarations in HTML and CSS are two clever ways we can apply design to
-        our web pages. When talking about 'design', this could mean a simple
-        element change - a certain font size for text, a space of 'x' amount
-        between paragraphs for example. Design also includes those elements that
-        affect the way a user experiences your webpage or application - examples
-        could be how sections change depending on the device they're using or
-        the options created for navigating a page.
+        If you're like me, you like to work smarter, not harder. Classes and ids
+        are two clever ways we can apply design to our web pages. When talking
+        about 'design', this could mean a simple styling change - a certain font
+        size, a margin of 'x' amount between paragraphs for example. We can also
+        include in design, style elements that affect how a user
+        <em>experiences</em> your webpage or application. Examples include: how
+        sections may change depending on the screen dimensions or the way in
+        which a user is able to navigate around a page.
       </p>
       <br />
       <p>
-        Imagine you're creating a new webpage for a business you're starting.
-        Consider the following thoughts you might have below while coding:
+        Imagine you're creating a new website. Consider the thoughts below that
+        you might have during the coding process:
       </p>
       <ul>
-        <li>"I want these sections to fit a theme"</li>
+        <li>"I want these sections to have a theme"</li>
         <li>"I love this color combination"</li>
-        <li>"These blocks should all resize for a smaller screen"</li>
+        <li>"These blocks should all be shorter for a smaller screen"</li>
         <li>
           "There's gotta be an easier way to make these paragraphs look the
           same"
         </li>
       </ul>
       <p>
-        If you're saying some version of the examples above, you're likely
-        looking to use a class declaration to achieve your design decisions.
-        That is, you want to reuse or repeat style elements across your web
-        design. That might be a single element or a group of elements that you
-        think work well together or achieve a certain goal.
+        If you're saying some version of the above to yourself, you're likely
+        looking to use a classes to achieve your design decisions. You want to
+        reuse or repeat style elements across your webpage. That could be a
+        single element you're thinking about or a group of elements that you
+        think work well together or achieve a certain goal for the user
+        experience.
       </p>
       <br />
-      <p>
-        Consider some more questions your may ask yourself while working on HTML
-        and CSS for your new business:
-      </p>
+      <p>Let's consider some other thoughts that may come up while coding:</p>
       <ul>
         <li>"I wish I could change this without messing everything else up"</li>
         <li>"This needs to make a statement"</li>
@@ -76,17 +76,18 @@
         <li>"My webpage looks good on everything but a mobile phone"</li>
       </ul>
       <p>
-        If trying to problem solve any of the above examples, best practice
-        would be to use an id declaration to achieve this - that is, you want to
-        create a unique element style that won't be used elsewhere or you may
-        need a certain group of attributes to take priority over others.
+        When thinking of ways to problem solve any of the above examples, best
+        practice would be to use an id. You want to create a unique style
+        element that won't be used elsewhere or it could be a certain group of
+        style attributes that you want to take priority somewhere on your
+        webpage.
       </p>
       <br />
       <p>
         <strong
-          >All class declarations begin with period followed by a unique name
-          that summarizes in some way the style attribute/s you are wanting to
-          set. We declare these inside the CSS stylesheet</strong
+          >All classes begin with period followed by a unique name that
+          summarizes in some way the style attribute/s you are wanting to set.
+          We declare these inside the CSS stylesheet</strong
         >
       </p>
       <img
@@ -96,10 +97,11 @@
       />
       <p>
         <strong
-          >Notice that if using multiple words, they are connected by dashes.
-          Curly brackets both open and close around the attribute/s you want to
-          apply. The unique class name then becomes the selector name we use
-          inside the HTML file to refer to the styling we want to happen</strong
+          >Notice: if you're using multiple words for a class, they are
+          connected by dashes. Curly brackets both open and close around the
+          attribute/s you want to apply. The unique class name you've created
+          now becomes the 'selector' name we use inside the HTML file to refer
+          to the styling we want to happen</strong
         >
       </p>
       <img
@@ -109,16 +111,16 @@
       />
       <p>
         <strong
-          >Note we do not use the period inserting the class selector into the
-          HTML file.</strong
+          >Note: we do not use the period when stating the class selector in the
+          HTML document</strong
         >
       </p>
       <p>
         <strong
-          >Id declarations follow exactly the same process as explained above
-          except a hashtag replaces the use of a period at the start when
-          creating a unique id name. The hashtag is also removed when referring
-          to the id inside the HTML file.</strong
+          >Creating an id, we follow exactly the same process as outlined above
+          except, a hashtag replaces the use of a period when creating a unique
+          title for your id. The hashtag is also removed, like the period was,
+          when being stated inside the HTML file</strong
         >
       </p>
       <img
@@ -132,29 +134,31 @@
         alt="class coding example in html file"
       />
       <br />
-      <p>
-        Back to the point of working smarter not harder, class and id
-        declarations should save you the time it would take to individually
-        apply a set of attributes over and over to numerous tags. It is also a
-        smarter way of organizing your code, where all the different settings
-        for styling are outlined together in the CSS file, these are then only
-        referred to in the HTML file, keeping both files well presented and
-        tidy.
-      </p>
-      <br />
-      <p>Other tips to remember:</p>
+      <p>Points to remember:</p>
       <ul>
         <li>
-          Code is read by your device from top down, left to right so any
-          conflict of classes, the one positioned further down the stylesheet
-          will take priority or the first listed if sharing the same line,
-          inside an open tag.
+          Code is read by your program from top down, so if there is any
+          conflict of classes and their attributes, the one positioned further
+          down the stylesheet will take priority or the first class listed if
+          two or more are sharing the same line.
         </li>
         <li>
-          Id declarations are always prioritized no matter their position in
-          relation to other classes.
+          Id declarations are ALWAYS prioritized no matter their position in
+          relation to other classes. The last image shows an example of what
+          this might look like.
         </li>
       </ul>
+      <br />
+      <p>
+        Back to the point of working smarter not harder - classes and ids should
+        help save you the time it would take to individually apply a change or
+        set of attributes over and over to numerous tags. They're also tools to
+        easily apply these style choices to other parts of your project and make
+        it more cohesive. It is also a smarter way of organizing your code, with
+        all the different settings for styling outlined together in your CSS
+        file. These are then only 'referred' to in the HTML file, keeping both
+        sides well presented and tidy.
+      </p>
     </div>
     <ul class="list-links">
       <li>
