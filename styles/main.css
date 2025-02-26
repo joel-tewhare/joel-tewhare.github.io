@@ -24,13 +24,8 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-.description-block {
   background: silver;
   background-color: #d3ecdc;
-  font-family: monospace, sans-serif;
-  font-size: 16px;
   color: #111111;
   padding: 20px;
   margin: 35px;
