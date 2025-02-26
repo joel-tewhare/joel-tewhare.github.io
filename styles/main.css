@@ -15,10 +15,7 @@ ul {
   text-align: left;
 }
 
-a:link {
-  text-decoration: none;
-}
-
+a:link,
 a:visited,
 a:active {
   color: #111111;
