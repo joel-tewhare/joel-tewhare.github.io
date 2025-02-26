@@ -57,6 +57,13 @@ a:hover {
   margin: 25px;
 }
 
+.blog-image {
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+
 .sixtyfour-special-topic {
   font-family: 'Sixtyfour', serif;
   font-optical-sizing: auto;
@@ -169,6 +176,13 @@ a:hover {
     margin: 25px;
   }
 
+  .blog-image {
+    width: 290px;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
   .list-links {
     font-family: 'Jost', serif;
     font-optical-sizing: auto;
@@ -215,6 +229,13 @@ a:hover {
     border-radius: 25px;
     margin: 25px;
   }
+
+  .blog-image {
+    width: 260px;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -257,6 +278,13 @@ a:hover {
     height: auto;
     border-radius: 25px;
     margin: auto;
+  }
+
+  .blog-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin: 3px;
   }
 
   .list-links {
