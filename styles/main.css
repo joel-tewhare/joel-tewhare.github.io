@@ -199,6 +199,11 @@ a:hover {
     border-radius: 10px;
     width: 300px;
   }
+
+  .auto-resizable-iframe {
+    max-width: 480px;
+    margin: 0px auto;
+  }
 }
 
 @media (max-width: 430px) {
