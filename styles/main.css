@@ -201,8 +201,8 @@ a:hover {
   }
 
   .auto-resizable-iframe {
-    max-width: 480px;
-    margin: 0px auto;
+    width: 380px;
+    height: 200px;
   }
 }
 
@@ -258,6 +258,11 @@ a:hover {
     border-radius: 10px;
     width: 300px;
   }
+
+  .auto-resizable-iframe {
+    width: 300px;
+    height: 165px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -293,6 +298,11 @@ a:hover {
     height: auto;
     border-radius: 10px;
     margin: 5px;
+  }
+
+  .auto-resizable-iframe {
+    width: 265px;
+    height: 160px;
   }
 }
 
@@ -361,5 +371,10 @@ a:hover {
     margin: 15px;
     border-radius: 10px;
     width: 220px;
+  }
+
+  .auto-resizable-iframe {
+    width: 240px;
+    height: 145px;
   }
 }
